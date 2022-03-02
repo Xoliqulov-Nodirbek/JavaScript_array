@@ -40,10 +40,13 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    color: red;
-    font-size: 18px;
+    color: rgb(27, 27, 27);
+    height: 50px;
+}
+
+.result__two{
+    font-size: 23px;
     font-weight: 700;
-    font-family: serif;
-    font-style: italic;
+    font-style: normal;
     height: 50px;
 }

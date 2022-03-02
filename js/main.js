@@ -13,15 +13,20 @@ elForm.addEventListener("submit", function(evt){
 
     if (elInputVal % 2 == 0){
         elResult.textContent = `Bu son juft !`;
+        
         console.log(listOne);
         listOne.push(elInputVal);
         console.log(listOne);
+        elResult.classList.add("result__two");
+
     }
     else{
         elResult.textContent = `Bu son toq !`;
+        
         console.log(listTwo);
         listTwo.push(elInputVal);
         console.log(listTwo);
+        elResult.classList.add("result__two");
     } 
     if (elInputVal <= 0){
         elResult.textContent = `Please enter a number greater than 0 !`
